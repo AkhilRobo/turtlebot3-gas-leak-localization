@@ -18,6 +18,16 @@ Useful for showcasing probabilistic robotics skills for master's applications.
 
 ---
 
+## 🎬 Execution & Results
+
+Below is the simulation in action. The **Left** shows the TurtleBot3 in Gazebo, and the **Right** shows the live belief update in RViz.
+
+![Bayes Filter Demo](/home/akhil/turtlebot3_ws/media/baysen filter.gif)
+
+* **Green/Blue Regions:** Low probability (Safe/No source).
+* **Red/Pink Regions:** High probability (Source detected).
+* **Convergence:** Notice how the belief distribution narrows down to the specific source location as more measurements are gathered.
+
 ## 📦 Prerequisites
 
 ### 1. Install ROS2 Jazzy
@@ -199,24 +209,7 @@ value = (belief[i] / max_belief) * 100
 
 High probability → bright cells.
 
----
 
-## 📁 Repository Structure
-
-```
-bayes_filter/
-├── include/
-│   └── bayes_filter.hpp
-├── src/
-│   └── bayes_filter.cpp
-├── launch/
-│   └── bayes_filter.launch.py
-├── CMakeLists.txt
-├── package.xml
-└── README.md
-```
-
----
 
 ## 🏁 Future Work
 
