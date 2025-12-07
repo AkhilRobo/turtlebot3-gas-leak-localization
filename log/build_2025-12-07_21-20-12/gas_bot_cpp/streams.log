@@ -1,0 +1,45 @@
+[0.022s] Invoking command in '/home/akhil/turtlebot3_ws/build/gas_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akhil/turtlebot3_ws/src/gas_bot_cpp -DCMAKE_INSTALL_PREFIX=/home/akhil/turtlebot3_ws/install/gas_bot_cpp
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.276s] -- The CXX compiler identification is GNU 13.3.0
+[0.300s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.463s] -- Detecting C compile features
+[0.464s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.626s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.641s] -- Detecting CXX compile features
+[0.642s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.937s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.179s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.327s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.363s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.647s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.659s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.840s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.875s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.094s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.129s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.348s] -- Configuring done (2.3s)
+[2.385s] -- Generating done (0.0s)
+[2.398s] -- Build files have been written to: /home/akhil/turtlebot3_ws/build/gas_bot_cpp
+[2.417s] Invoked command in '/home/akhil/turtlebot3_ws/build/gas_bot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akhil/turtlebot3_ws/src/gas_bot_cpp -DCMAKE_INSTALL_PREFIX=/home/akhil/turtlebot3_ws/install/gas_bot_cpp
+[2.420s] Invoking command in '/home/akhil/turtlebot3_ws/build/gas_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akhil/turtlebot3_ws/build/gas_bot_cpp -- -j8 -l8
+[2.497s] [ 25%] [32mBuilding CXX object CMakeFiles/gas_simulator.dir/src/gas_sim.cpp.o[0m
+[2.498s] [ 50%] [32mBuilding CXX object CMakeFiles/bayes_filter.dir/src/bayes_filter.cpp.o[0m
+[2.950s] [01m[K/home/akhil/turtlebot3_ws/src/gas_bot_cpp/src/gas_sim.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Klogging.hpp: No such file or directory
+[2.951s]     6 | #include [01;31m[K<logging.hpp>[m[K
+[2.951s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[2.951s] compilation terminated.
+[2.957s] gmake[2]: *** [CMakeFiles/gas_simulator.dir/build.make:76: CMakeFiles/gas_simulator.dir/src/gas_sim.cpp.o] Error 1
+[2.957s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gas_simulator.dir/all] Error 2
+[2.957s] gmake[1]: *** Waiting for unfinished jobs....
+[16.769s] [ 75%] [32m[1mLinking CXX executable bayes_filter[0m
+[17.337s] [ 75%] Built target bayes_filter
+[17.338s] gmake: *** [Makefile:146: all] Error 2
+[17.341s] Invoked command in '/home/akhil/turtlebot3_ws/build/gas_bot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akhil/turtlebot3_ws/build/gas_bot_cpp -- -j8 -l8

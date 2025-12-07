@@ -29,6 +29,13 @@ devel_isolated/
 .project
 .cproject
 
+# src directories to ignore
+src/DynamixelSDK/
+src/turtlebot3/
+src/turtlebot3_msgs/
+src/turtlebot3_simulations/
+
+
 # qcreator stuff
 CMakeLists.txt.user
 

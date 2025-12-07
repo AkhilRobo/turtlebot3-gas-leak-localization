@@ -1,6 +1,6 @@
 # BayesFilter-Gas-Mapping (ROS2 Jazzy, C++)
 
-A unique ROS2 C++ mini-project implementing a custom Bayes Filter (from scratch) to estimate the robot’s position in a 2D grid using simulated gas sensor measurements generated from a Gaussian Plume Model. Includes full mathematical explanation, RViz visualization, and TurtleBot3 Gazebo simulation.
+A ROS2 C++  implementation of a custom Bayes Filter (from scratch) to estimate the robot’s position in a 2D grid using simulated gas sensor measurements generated from a Gaussian Plume Model. Includes full mathematical explanation, RViz visualization, and TurtleBot3 Gazebo simulation.
 
 ---
 

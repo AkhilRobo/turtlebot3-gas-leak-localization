@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/akhil/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/build/turtlebot3_example",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib/python3.12/site-packages",
+        "/home/akhil/panda_arm/install/feature_extractor_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/akhil/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/build/turtlebot3_example",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib/python3.12/site-packages",
+        "/home/akhil/panda_arm/install/feature_extractor_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

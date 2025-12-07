@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000571] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000642] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001333] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001492] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001533] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001583] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001631] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001677] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001718] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001740] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001761] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001781] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001801] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001820] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001839] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001862] (gas_bot_cpp) JobQueued: {'identifier': 'gas_bot_cpp', 'dependencies': OrderedDict()}
+[0.001890] (gas_bot_cpp) JobStarted: {'identifier': 'gas_bot_cpp'}
+[0.025524] (gas_bot_cpp) JobProgress: {'identifier': 'gas_bot_cpp', 'progress': 'cmake'}
+[0.026322] (gas_bot_cpp) JobProgress: {'identifier': 'gas_bot_cpp', 'progress': 'build'}
+[0.027660] (gas_bot_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/akhil/turtlebot3_ws/build/gas_bot_cpp', '--', '-j8', '-l8'], 'cwd': '/home/akhil/turtlebot3_ws/build/gas_bot_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3321-21-akki_TIME62378185', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/akhil/.ignition/models', 'LANGUAGE': 'en_IN:en', 'USER': 'akhil', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib:/home/akhil/panda_arm/install/feature_extractor_pkg/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akhil', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/akhil/turtlebot3_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2829', 'SYSTEMD_EXEC_PID': '3321', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '173276', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install:/home/akhil/panda_arm/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akhil', 'JOURNAL_STREAM': '8:22281', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akhil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/akhil/anaconda3/condabin:/home/akhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/akki:@/tmp/.ICE-unix/3295,unix/akki:/tmp/.ICE-unix/3295', 'INVOCATION_ID': '462f14c87f664e948fcbfb56b9c65ee9', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_simulations:/home/akhil/turtlebot3_ws/install/turtlebot3_fake_node:/home/akhil/turtlebot3_ws/install/turtlebot3_gazebo:/home/akhil/turtlebot3_ws/install/turtlebot3:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_bringup:/home/akhil/turtlebot3_ws/install/turtlebot3_node:/home/akhil/turtlebot3_ws/install/turtlebot3_navigation2:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs:/home/akhil/turtlebot3_ws/install/turtlebot3_description:/home/akhil/turtlebot3_ws/install/turtlebot3_cartographer:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_examples:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/akhil/turtlebot3_ws/install/dynamixel_sdk:/home/akhil/panda_arm/install/pick_and_plcae_nodes:/home/akhil/panda_arm/install/my_pcl_processor:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg:/home/akhil/panda_arm/install/panda_moveit_control:/home/akhil/panda_arm/install/panda_moveit_config:/home/akhil/panda_arm/install/panda_description:/home/akhil/panda_arm/install/feature_extractor_pkg:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/akhil/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:09bc6382-3f05-4459-a40b-8c5e37f9a372', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akhil/turtlebot3_ws/build/gas_bot_cpp', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/akhil/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/akhil/turtlebot3_ws/build/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/build/turtlebot3_example:/home/akhil/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib/python3.12/site-packages:/home/akhil/panda_arm/install/feature_extractor_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_simulations:/home/akhil/turtlebot3_ws/install/turtlebot3_fake_node:/home/akhil/turtlebot3_ws/install/turtlebot3_gazebo:/home/akhil/turtlebot3_ws/install/turtlebot3:/home/akhil/turtlebot3_ws/install/turtlebot3_bringup:/home/akhil/turtlebot3_ws/install/turtlebot3_node:/home/akhil/turtlebot3_ws/install/turtlebot3_navigation2:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs:/home/akhil/turtlebot3_ws/install/turtlebot3_description:/home/akhil/turtlebot3_ws/install/turtlebot3_cartographer:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_examples:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/akhil/turtlebot3_ws/install/dynamixel_sdk:/home/akhil/panda_arm/install/pick_and_plcae_nodes:/home/akhil/panda_arm/install/my_pcl_processor:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg:/home/akhil/panda_arm/install/panda_moveit_control:/home/akhil/panda_arm/install/panda_moveit_config:/home/akhil/panda_arm/install/panda_description:/home/akhil/panda_arm/install/feature_extractor_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy'}), 'shell': False}
+[0.099773] (-) TimerEvent: {}
+[0.122294] (gas_bot_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gas_simulator.dir/src/gas_sim.cpp.o\x1b[0m\n'}
+[0.142553] (gas_bot_cpp) StdoutLine: {'line': b'[ 75%] Built target bayes_filter\n'}
+[0.199912] (-) TimerEvent: {}
+[0.300213] (-) TimerEvent: {}
+[0.400496] (-) TimerEvent: {}
+[0.500814] (-) TimerEvent: {}
+[0.601091] (-) TimerEvent: {}
+[0.701394] (-) TimerEvent: {}
+[0.801699] (-) TimerEvent: {}
+[0.902025] (-) TimerEvent: {}
+[1.002329] (-) TimerEvent: {}
+[1.102679] (-) TimerEvent: {}
+[1.202996] (-) TimerEvent: {}
+[1.303269] (-) TimerEvent: {}
+[1.403602] (-) TimerEvent: {}
+[1.503889] (-) TimerEvent: {}
+[1.604209] (-) TimerEvent: {}
+[1.704543] (-) TimerEvent: {}
+[1.804845] (-) TimerEvent: {}
+[1.905168] (-) TimerEvent: {}
+[2.005525] (-) TimerEvent: {}
+[2.105835] (-) TimerEvent: {}
+[2.206161] (-) TimerEvent: {}
+[2.306458] (-) TimerEvent: {}
+[2.406771] (-) TimerEvent: {}
+[2.507043] (-) TimerEvent: {}
+[2.607324] (-) TimerEvent: {}
+[2.707614] (-) TimerEvent: {}
+[2.807907] (-) TimerEvent: {}
+[2.908187] (-) TimerEvent: {}
+[3.008484] (-) TimerEvent: {}
+[3.108761] (-) TimerEvent: {}
+[3.209079] (-) TimerEvent: {}
+[3.309500] (-) TimerEvent: {}
+[3.409786] (-) TimerEvent: {}
+[3.510104] (-) TimerEvent: {}
+[3.610407] (-) TimerEvent: {}
+[3.710686] (-) TimerEvent: {}
+[3.810969] (-) TimerEvent: {}
+[3.911209] (-) TimerEvent: {}
+[4.011451] (-) TimerEvent: {}
+[4.111725] (-) TimerEvent: {}
+[4.211985] (-) TimerEvent: {}
+[4.312290] (-) TimerEvent: {}
+[4.412648] (-) TimerEvent: {}
+[4.512913] (-) TimerEvent: {}
+[4.613246] (-) TimerEvent: {}
+[4.713597] (-) TimerEvent: {}
+[4.813850] (-) TimerEvent: {}
+[4.914257] (-) TimerEvent: {}
+[5.014557] (-) TimerEvent: {}
+[5.114857] (-) TimerEvent: {}
+[5.215121] (-) TimerEvent: {}
+[5.315398] (-) TimerEvent: {}
+[5.415726] (-) TimerEvent: {}
+[5.516089] (-) TimerEvent: {}
+[5.619761] (-) TimerEvent: {}
+[5.720043] (-) TimerEvent: {}
+[5.820314] (-) TimerEvent: {}
+[5.920614] (-) TimerEvent: {}
+[6.020888] (-) TimerEvent: {}
+[6.121167] (-) TimerEvent: {}
+[6.221477] (-) TimerEvent: {}
+[6.321770] (-) TimerEvent: {}
+[6.422095] (-) TimerEvent: {}
+[6.522468] (-) TimerEvent: {}
+[6.622793] (-) TimerEvent: {}
+[6.723131] (-) TimerEvent: {}
+[6.823449] (-) TimerEvent: {}
+[6.923780] (-) TimerEvent: {}
+[7.024051] (-) TimerEvent: {}
+[7.124343] (-) TimerEvent: {}
+[7.224709] (-) TimerEvent: {}
+[7.325024] (-) TimerEvent: {}
+[7.425323] (-) TimerEvent: {}
+[7.525655] (-) TimerEvent: {}
+[7.625951] (-) TimerEvent: {}
+[7.726298] (-) TimerEvent: {}
+[7.826606] (-) TimerEvent: {}
+[7.926878] (-) TimerEvent: {}
+[8.027175] (-) TimerEvent: {}
+[8.127457] (-) TimerEvent: {}
+[8.227759] (-) TimerEvent: {}
+[8.328035] (-) TimerEvent: {}
+[8.428300] (-) TimerEvent: {}
+[8.528576] (-) TimerEvent: {}
+[8.628851] (-) TimerEvent: {}
+[8.729168] (-) TimerEvent: {}
+[8.829479] (-) TimerEvent: {}
+[8.929759] (-) TimerEvent: {}
+[9.030041] (-) TimerEvent: {}
+[9.130316] (-) TimerEvent: {}
+[9.230595] (-) TimerEvent: {}
+[9.330844] (-) TimerEvent: {}
+[9.431157] (-) TimerEvent: {}
+[9.531436] (-) TimerEvent: {}
+[9.631741] (-) TimerEvent: {}
+[9.732037] (-) TimerEvent: {}
+[9.832401] (-) TimerEvent: {}
+[9.932688] (-) TimerEvent: {}
+[10.032973] (-) TimerEvent: {}
+[10.133223] (-) TimerEvent: {}
+[10.233499] (-) TimerEvent: {}
+[10.333780] (-) TimerEvent: {}
+[10.434074] (-) TimerEvent: {}
+[10.534330] (-) TimerEvent: {}
+[10.634648] (-) TimerEvent: {}
+[10.734955] (-) TimerEvent: {}
+[10.835268] (-) TimerEvent: {}
+[10.935734] (-) TimerEvent: {}
+[11.036142] (-) TimerEvent: {}
+[11.136432] (-) TimerEvent: {}
+[11.145597] (gas_bot_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gas_simulator\x1b[0m\n'}
+[11.236607] (-) TimerEvent: {}
+[11.336997] (-) TimerEvent: {}
+[11.437251] (-) TimerEvent: {}
+[11.537539] (-) TimerEvent: {}
+[11.589204] (gas_bot_cpp) StdoutLine: {'line': b'[100%] Built target gas_simulator\n'}
+[11.609273] (gas_bot_cpp) CommandEnded: {'returncode': 0}
+[11.610409] (gas_bot_cpp) JobProgress: {'identifier': 'gas_bot_cpp', 'progress': 'install'}
+[11.625243] (gas_bot_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/akhil/turtlebot3_ws/build/gas_bot_cpp'], 'cwd': '/home/akhil/turtlebot3_ws/build/gas_bot_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3321-21-akki_TIME62378185', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/akhil/.ignition/models', 'LANGUAGE': 'en_IN:en', 'USER': 'akhil', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib:/home/akhil/panda_arm/install/feature_extractor_pkg/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/akhil', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/akhil/turtlebot3_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2829', 'SYSTEMD_EXEC_PID': '3321', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '173276', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install:/home/akhil/panda_arm/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'akhil', 'JOURNAL_STREAM': '8:22281', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'akhil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/akhil/anaconda3/condabin:/home/akhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/akki:@/tmp/.ICE-unix/3295,unix/akki:/tmp/.ICE-unix/3295', 'INVOCATION_ID': '462f14c87f664e948fcbfb56b9c65ee9', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_simulations:/home/akhil/turtlebot3_ws/install/turtlebot3_fake_node:/home/akhil/turtlebot3_ws/install/turtlebot3_gazebo:/home/akhil/turtlebot3_ws/install/turtlebot3:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_bringup:/home/akhil/turtlebot3_ws/install/turtlebot3_node:/home/akhil/turtlebot3_ws/install/turtlebot3_navigation2:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs:/home/akhil/turtlebot3_ws/install/turtlebot3_description:/home/akhil/turtlebot3_ws/install/turtlebot3_cartographer:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_examples:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/akhil/turtlebot3_ws/install/dynamixel_sdk:/home/akhil/panda_arm/install/pick_and_plcae_nodes:/home/akhil/panda_arm/install/my_pcl_processor:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg:/home/akhil/panda_arm/install/panda_moveit_control:/home/akhil/panda_arm/install/panda_moveit_config:/home/akhil/panda_arm/install/panda_description:/home/akhil/panda_arm/install/feature_extractor_pkg:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/akhil/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:09bc6382-3f05-4459-a40b-8c5e37f9a372', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/akhil/turtlebot3_ws/build/gas_bot_cpp', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/akhil/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/akhil/turtlebot3_ws/build/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/build/turtlebot3_example:/home/akhil/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/akhil/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg/lib/python3.12/site-packages:/home/akhil/panda_arm/install/feature_extractor_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/akhil/turtlebot3_ws/install/turtlebot3_simulations:/home/akhil/turtlebot3_ws/install/turtlebot3_fake_node:/home/akhil/turtlebot3_ws/install/turtlebot3_gazebo:/home/akhil/turtlebot3_ws/install/turtlebot3:/home/akhil/turtlebot3_ws/install/turtlebot3_bringup:/home/akhil/turtlebot3_ws/install/turtlebot3_node:/home/akhil/turtlebot3_ws/install/turtlebot3_navigation2:/home/akhil/turtlebot3_ws/install/turtlebot3_msgs:/home/akhil/turtlebot3_ws/install/turtlebot3_description:/home/akhil/turtlebot3_ws/install/turtlebot3_cartographer:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_examples:/home/akhil/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/akhil/turtlebot3_ws/install/dynamixel_sdk:/home/akhil/panda_arm/install/pick_and_plcae_nodes:/home/akhil/panda_arm/install/my_pcl_processor:/home/akhil/panda_arm/install/pick_and_plcae_interface_pkg:/home/akhil/panda_arm/install/panda_moveit_control:/home/akhil/panda_arm/install/panda_moveit_config:/home/akhil/panda_arm/install/panda_description:/home/akhil/panda_arm/install/feature_extractor_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/akhil/turtlebot3_ws/install/turtlebot3_teleop:/home/akhil/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy'}), 'shell': False}
+[11.637659] (-) TimerEvent: {}
+[11.638953] (gas_bot_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.639234] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/lib/gas_bot_cpp/gas_simulator\n'}
+[11.645093] (gas_bot_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/akhil/turtlebot3_ws/install/gas_bot_cpp/lib/gas_bot_cpp/gas_simulator" to ""\n'}
+[11.645439] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/lib/gas_bot_cpp/bayes_filter\n'}
+[11.654821] (gas_bot_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/akhil/turtlebot3_ws/install/gas_bot_cpp/lib/gas_bot_cpp/bayes_filter" to ""\n'}
+[11.655179] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/ament_index/resource_index/package_run_dependencies/gas_bot_cpp\n'}
+[11.655495] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/ament_index/resource_index/parent_prefix_path/gas_bot_cpp\n'}
+[11.655807] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/environment/ament_prefix_path.sh\n'}
+[11.656006] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/environment/ament_prefix_path.dsv\n'}
+[11.656270] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/environment/path.sh\n'}
+[11.656790] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/environment/path.dsv\n'}
+[11.657087] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/local_setup.bash\n'}
+[11.657354] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/local_setup.sh\n'}
+[11.657628] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/local_setup.zsh\n'}
+[11.657873] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/local_setup.dsv\n'}
+[11.658142] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/package.dsv\n'}
+[11.658531] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/ament_index/resource_index/packages/gas_bot_cpp\n'}
+[11.658842] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/cmake/gas_bot_cppConfig.cmake\n'}
+[11.659023] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/cmake/gas_bot_cppConfig-version.cmake\n'}
+[11.659293] (gas_bot_cpp) StdoutLine: {'line': b'-- Installing: /home/akhil/turtlebot3_ws/install/gas_bot_cpp/share/gas_bot_cpp/package.xml\n'}
+[11.662281] (gas_bot_cpp) CommandEnded: {'returncode': 0}
+[11.689638] (gas_bot_cpp) JobEnded: {'identifier': 'gas_bot_cpp', 'rc': 0}
+[11.690300] (-) EventReactorShutdown: {}
