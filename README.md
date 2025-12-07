@@ -199,24 +199,7 @@ value = (belief[i] / max_belief) * 100
 
 High probability → bright cells.
 
----
 
-## 📁 Repository Structure
-
-```
-bayes_filter/
-├── include/
-│   └── bayes_filter.hpp
-├── src/
-│   └── bayes_filter.cpp
-├── launch/
-│   └── bayes_filter.launch.py
-├── CMakeLists.txt
-├── package.xml
-└── README.md
-```
-
----
 
 ## 🏁 Future Work
 
